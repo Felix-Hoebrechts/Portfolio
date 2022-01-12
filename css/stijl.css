@@ -12,9 +12,9 @@ a:hover{
 
 
 .background-hello{
-    height: 317px;
+    height: 750px;
     background-image: url(../afbeeldingen/Hallo.jpg);
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-color: #c4dde4;
 }
@@ -57,7 +57,6 @@ footer{
 .linkstyle:hover{
     background-color: #14514f;
     color: #c4dde4;
-    
 }
 
 .tab{
@@ -66,5 +65,34 @@ footer{
 }
 
 #about, #stage, #realisaties{
-    padding-top: 175px;
+    padding-top: 145px;
+    padding-bottom: 145px;
+}
+
+#stage{
+    background-color: #c4dde4;
+}
+
+.bottomimg{
+    /* move position */
+    position: relative; 
+    left:80px; 
+    top: 450px;
+    /* round img */
+    border: 0px;
+    border-radius: 230px;
+    /* resize */
+    object-fit: cover;
+    width:230px;
+    height:230px;
+}
+
+#centerText{
+    /* needs absolute to position correctly */
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    /* needs to change again to get the relative pos for the top */
+    position: relative;
+    top: 220px;
 }

@@ -77,7 +77,7 @@ footer{
     /* move position */
     position: relative; 
     left:80px; 
-    top: 450px;
+    top: 200px;
     /* round img */
     border: 0px;
     border-radius: 230px;
@@ -94,5 +94,29 @@ footer{
     width: 50%;
     /* needs to change again to get the relative pos for the top */
     position: relative;
-    top: 220px;
+    top: 350px;
+}
+
+.round{
+    /* round img */
+    border: 0px;
+    border-radius: 230px;
+    /* resize */
+    object-fit: cover;
+    width:230px;
+    height:230px;
+}
+
+.realisatieIMG{
+    background-color: #14514f;
+    height: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px;   
+}
+
+.darklink{
+    color: #14514f;
+}
+.darklink:hover, .darklink:active{
+    color: #14514f70;
 }

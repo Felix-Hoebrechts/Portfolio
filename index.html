@@ -44,7 +44,8 @@
     <!-- backgroundimage--->
         <div class="container" style="height: 0px;">
             <!--<img src="afbeeldingen/Felix_L_500x350.jpg" alt="profielfoto Felix Hoebrechts" height="250px" class="bottomimg">-->
-            <p id="centerText">Welkom, mijn naam is Felix. In dit portfolio komt u meer te weten over mijzelf, mijn stage en andere realisaties.</p>
+            <p class="centerText">Welkom, mijn naam is Felix. In dit portfolio komt u meer te weten over mijzelf, mijn stage en andere realisaties.</p>
+            <a href="#about" class="linkstyleInverse centerText">Over mij</a>
         </div>
     </div>
     
@@ -102,31 +103,38 @@
                     <div class="col-md-8">
                         <p>
                             Tussen 20 september 2021 en 17 december 2021 liep ik 13 weken stage bij Bepowered. 
-                            Het bedrijf is interessant omdat het werkt aan energiebeheer. 
+                            Ik heb voor dit bedrijf gekozen omdat het werkt aan energiebeheer. 
+                            Dit leek mij wel interessant. 
                             Energie vormt de basis van ons leven. 
                             We hebben natuurlijke hulpbronnen zoals zon, water en wind die zorgen voor ons maximaal comfort. 
                             Om een minimale impact te hebben op het milieu ontwikkelt Bepowered projecten om het elektriciteitsnet te monitoren en te beheren. 
-                            Ze bieden gebruiksvriendelijke oplossingen om tot een gewenst economisch en ecologisch hoogtepunt te komen. 
+                            Ze bieden gebruiksvriendelijke oplossingen aan om tot een gewenst economisch en ecologisch hoogtepunt te komen. 
                             Ze bouwen ecosystemen voor energiebeheer om de lokale energieproductie, -opslag en -vraag te controleren en in evenwicht te houden. 
                         </p>
                         <p>
-                            Het verwacht resultaat van de stage is dat er een ESP32 (=een kleine microcontroller) geplaatst wordt op een plaats waar oplaadpalen voor elektrische voertuigen staan. 
+                            Het verwachte resultaat van de stage is dat er een ESP32 geplaatst wordt op een plaats waar oplaadpalen voor elektrische voertuigen staan.
+                            Een ESP32 is een kleine microcontroller. 
                             De ESP zal hierna correct aangesloten worden en zal door middel van het modbusprotocol verbinden met de oplaadpalen. 
                             Vervolgens zal de ESP de spanning en het vermogen van de energiemeter inlezen en hiermee een API opbouwen. 
-                            Als alles correct aangesloten is, kan de embedded website een live waarde weergeven die de meter op dat moment heeft. 
-                            Indien alles correct aangesloten in zal de website zichzelf updaten en is er dus geen manuele handeling nodig om de data up-to-date te houden. 
+                            Als alles correct aangesloten is, kan de embedded website live waarden weergeven die de meter op dat moment meet. 
+                            Indien alles correct aangesloten is, zal de website zichzelf updaten.
+                            Er is er dus geen manuele handeling nodig om de data up-to-date te houden. 
                             Als er een verbinding is met het internet zal er ook, door middel van het MQTTprotocol, data verstuurd worden.
                         </p>
                         <br>
-                        <h5>Documenten</h5>
+                        <h5>Lees hier meer:</h5>
                         <p>
-                            Plan van aanpak: <a href="Files\PVA_Stage_Felix_Hoebrechts_R0744149.pdf" target="_blank" class="darklink">Plan van aanpak</a>
-                            <br>Realisatiedocument: <a href="Files\realisatieverslag_Stage_Felix_Hoebrechts_R0744149.pdf" target="_blank" class="darklink">Realisatiedocument</a>
-                            <br>Reflectieverslag: <a href="Files\reflectieverslag_Stage_Felix_Hoebrechts_R0744149.pdf" target="_blank" class="darklink">Reflectieverslag</a>
+                            <ul>
+                                <li><a href="Files\PVA_Stage_Felix_Hoebrechts_R0744149.pdf" target="_blank" class="darklink">Plan van aanpak</a></li>
+                                <li><a href="Files\realisatieverslag_Stage_Felix_Hoebrechts_R0744149.pdf" target="_blank" class="darklink">Realisatiedocument</a></li>
+                                <li><a href="Files\reflectieverslag_Stage_Felix_Hoebrechts_R0744149.pdf" target="_blank" class="darklink">Reflectieverslag</a></li>
+                            </ul>  
                         </p>
                     </div>
                     <div class="col-md-4">
                         <img style="width: 100%;" src="https://www.bepowered.be/wp-content/uploads/2021/04/BePowered_Logo_ZwartGroen.png" class="attachment-full size-full" alt="" loading="lazy" srcset="https://www.bepowered.be/wp-content/uploads/2021/04/BePowered_Logo_ZwartGroen.png 1950w, https://www.bepowered.be/wp-content/uploads/2021/04/BePowered_Logo_ZwartGroen-300x138.png 300w, https://www.bepowered.be/wp-content/uploads/2021/04/BePowered_Logo_ZwartGroen-1024x470.png 1024w, https://www.bepowered.be/wp-content/uploads/2021/04/BePowered_Logo_ZwartGroen-768x352.png 768w, https://www.bepowered.be/wp-content/uploads/2021/04/BePowered_Logo_ZwartGroen-1536x705.png 1536w" sizes="(max-width: 1950px) 100vw, 1950px">
+                        <img style="width: 55%;" src="afbeeldingen/ESP32-WROOM-32_trans.png" alt="">
+                        <img style="width: 55%;" src="afbeeldingen/9IBA200932_720x540_trans.png" alt="">
                     </div>
                 </div>
                 
@@ -186,10 +194,10 @@
                             Maar het op afstand werken zorgt weer voor een hele nieuwe aanpak voor het uitwerken van het project. 
                             De samenwerking en het uitwerken van het project voorliep zeer goed. 
                             Communicatie is belangrijk in elk project en als deze goed is, kan het project goed blijven doorgaan. 
-                            Met enkele aanpassingen en andere verwachtingen ten opzichte van elkaar is het in deze moeilijke tijden creatief zijn de oplossing.
+                            Met enkele aanpassingen en andere verwachtingen ten opzichte van elkaar, is creatief zijn de oplossing in deze moeilijke tijden.
                         </p>
                         <p>
-                            Ik hou me vooral bezig met het maken van de software die de sturing van de waterpompen en de waardes van sensoren binnenhaalt. 
+                            Ik hou me vooral bezig met het maken van de software die de sturing van waterpompen en de waardes van sensoren binnenhaalt. 
                             Ook heb ik gewerkt aan de database zodat deze data gevisualiseerd kon worden op een website.
                         </p>
                     </div>

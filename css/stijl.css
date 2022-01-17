@@ -59,6 +59,23 @@ footer{
     color: #c4dde4;
 }
 
+.linkstyleInverse{
+    color:#c4dde4;
+    background-color: #14514f;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 20px;
+    border: 1.5px solid #14514f;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+.linkstyleInverse:hover{
+    background-color: #c4dde4;
+    color: #14514f;
+}
+
 .tab{
     display: inline-block;
     margin-left: 50px;
@@ -87,7 +104,7 @@ footer{
     height:230px;
 }
 
-#centerText{
+.centerText{
     /* needs absolute to position correctly */
     position: absolute;
     left: 50%;
@@ -119,4 +136,8 @@ footer{
 }
 .darklink:hover, .darklink:active{
     color: #14514f70;
+}
+
+ul li::marker{
+    color: #14514f;
 }
